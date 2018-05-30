@@ -3,6 +3,7 @@
 #container {
     width: 1000px;
     margin: 0 auto;
+    color: white;
 }
 header {
     height: 100px;
@@ -47,4 +48,5 @@ aside {
 }
 footer {
     background: #f8910b;
+    height: 100px;
 }
