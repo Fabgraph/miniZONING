@@ -1,13 +1,13 @@
 @charset "utf-8";
 
 body {
-    background: coral;
+    background: #333;
     margin: 0 auto;
     color: white;
 }
 /* l'enveloppe principale de la page */
 #container {
-    width: 1000px;
+    width: 80%;
     margin: 0 auto;
     background: linear-gradient(red, white);
 }
@@ -21,13 +21,13 @@ nav {
 }
 #nav_gauche {
     float: left;
-    width: 300px;
+    width: 30%;
     background: #333;
     margin-top: 0;
     min-height: 500px;
 }
 #main {
-    width: 700px;
+    width: 70%;
     float: right;
     background: lightblue;
     min-height: 500px;
@@ -45,13 +45,13 @@ section {
 }
 article {
     background: yellowgreen;
-    width: 350px;
+    width: 50%;
     float: left;
     margin-top: 50px; 
 }
 aside {
     background: purple;
-    width: 350px;
+    width: 50%;
     float: right;
     margin-top: 50px; 
 }
